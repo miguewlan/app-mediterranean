@@ -1,0 +1,42 @@
+input[type=checkbox]{
+  
+  height: 20px;
+  width: 30px;
+  
+}
+
+.ingredients{
+  width: 80%;
+  background: green;;
+
+
+}
+
+
+ul li{
+  list-style: none;
+  margin-right: 5px;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+ul li:hover{
+  list-style: none;
+  margin-right: 5px;
+  margin-bottom: 30px;
+  background: rgb(255, 255, 255);
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  width: 65%;
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: .3rem .3rem .6rem #c8d0e7, 
+  -.2rem -.2rem .5rem #FFFFFF,
+  inset .2rem .2rem .5rem #c8d0e7,
+  inset -.2rem -.2rem .5rem #FFFFFF;
+}
+p{
+  margin-left: 35px;
+  font-size: 18px;
+}
