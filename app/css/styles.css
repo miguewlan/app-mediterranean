@@ -1,0 +1,144 @@
+body{
+    margin-top: 0;
+    margin-left:0;
+    margin-right: 0;
+    background: #fff;
+  
+    
+}
+
+h2{
+    padding: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    
+}
+
+img-recetas{
+    position: absolute;
+    border-radius: 15px;
+}
+
+
+.box-recipes{
+    display: flex;
+    justify-content: center;
+}
+
+.box-recipes{
+    border-radius: 15px;
+    font-size: 26px;
+    margin-left: 1%;
+    width: 98%;
+    background: white;
+    box-shadow: .3rem .3rem .6rem #c8d0e7, 
+    -.2rem -.2rem .5rem #FFFFFF,
+    inset .2rem .2rem .5rem #c8d0e7,
+    inset -.2rem -.2rem .5rem #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.box-recipes:hover{
+    border-radius: 15px;
+    margin-left: 1%;
+    width: 98%;
+    background: rgb(245, 232, 232);
+    box-shadow:  .3rem .3rem .6rem #c8d0e7, 
+    -.2rem -.2rem .5rem #FFFFFF,
+    inset .2rem .2rem .5rem #c8d0e7,
+    inset -.2rem -.2rem .5rem #FFFFFF;
+    margin-bottom: 20px;
+}
+
+
+
+.recipes{
+    text-align: center;
+}
+
+button{
+    margin-left: 45%;
+    background: rgb(255, 187, 0);
+    border: none;
+    padding: 14px 16px;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+@media screen {
+    
+@media (max-width:500px){
+    button{
+        margin-left: 45%;
+        margin-right: 5px;
+        background: rgb(255, 187, 0);
+        border: none;
+        padding: 14px 16px;
+        border-radius: 15px;
+        color: white;
+        font-weight: bold;
+        border-bottom: 10px;
+        
+    }
+    .box-recipes{
+        border-radius: 15px;
+        margin-left: 1%;
+        width: 98%;
+        background: white;
+        box-shadow: .3rem .3rem .6rem #c8d0e7, 
+        -.2rem -.2rem .5rem #FFFFFF,
+        inset .2rem .2rem .5rem #c8d0e7,
+        inset -.2rem -.2rem .5rem #FFFFFF;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width:320px){
+    button{
+        margin-left: 45%;
+        margin-right: 5px;
+        background: rgb(255, 187, 0);
+        border: none;
+        padding: 14px 16px;
+        border-radius: 15px;
+        color: white;
+        font-weight: bold;
+        
+        
+    }
+    .box-recipes{
+        border-radius: 15px;
+        margin-left: 1%;
+        width: 98%;
+        background: white;
+        box-shadow: .3rem .3rem .6rem #c8d0e7, 
+  -.2rem -.2rem .5rem #FFFFFF,
+  inset .2rem .2rem .5rem #c8d0e7,
+  inset -.2rem -.2rem .5rem #FFFFFF;
+        margin-bottom: 20px;
+    }
+}
+
+a{  
+    font-size: 26px;
+    color: white;
+    text-decoration: none;
+}
+
+.up{
+    margin-top: 10px;
+    background: rgb(255, 187, 0);
+    border: none;
+    padding: 14px 16px;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+}
+
+img{
+    margin-bottom: 20px;
+}
